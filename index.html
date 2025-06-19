@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Appoinment-Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="image/clinic-logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main-div">
+        <form action="https://formspree.io/f/mwpbqqed" method="post" id="form-div">
+            <img src="image/clinic-logo.png" height="100px" width="270px">
+            <h5>Your smile, our passion. Your health, our priority</h5>
+            <label>Fix Appoinment Here!</label>
+            <div class="input-div">
+                <input type="text" placeholder="Name" class="field" name="name" id="firstname">
+                <input type="email" placeholder="Email" class="field" name="email" id="email">
+                <input type="datetime-local" class="field" name="date and time" id="datetime" >
+                <input type="tel" placeholder="Mobile number" pattern="\d{10}" class="field" name="mobile number" id="number">
+                <input type="text" placeholder="Note" class="field" name="note">
+            </div>
+            <button type="submit" id="book">Book Now</button>
+        </form>
+    </div>
+    <footer>
+        <div class="foot-div">
+            <hr>
+            <h4>📞Contact : 9842396601  ||  Email : drmustafabds@gamil.com</h4>
+            <center>
+                <p>©2025 all copy rights reserved</p>
+            </center>
+        </div>
+    </footer>
+</body>
+<script src="main.js"></script>
+</html>

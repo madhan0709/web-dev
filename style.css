@@ -1,0 +1,79 @@
+body{
+    background-color: rgb(47,93,94);
+    font-family: "lora", serif;
+}
+.main-div{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+form{
+    background-color: white;
+    width: 370px;
+    height: 550px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+label{
+    color: rgb(47,93,94);
+    padding-right: 145px;
+    margin-bottom: 3px;
+
+}
+img{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-right: 23px;
+}
+.input-div{
+    padding: 10px;
+}
+.field{
+    padding: 13px;
+    width: 270px;
+    margin-left: 25px;
+    margin-bottom: 13px;
+    border: none;
+    background-color: rgb(223, 253, 223);
+    border-radius: 5px;
+}
+.field:hover{
+    border: 2px solid rgb(47,93,94);
+}
+.field:focus{
+    border: 2px solid rgb(126,228,126);
+}
+button{
+    background-color: rgb(47,93,94);
+    border-radius: 30px;
+    padding: 12px 20px;
+    cursor: pointer;
+    border: none;
+    color: black;
+    color: white;
+    margin-top: 5px;
+}
+button:hover{
+    background-color: rgb(120, 191, 120);
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+}
+h5{
+    color:rgb(47,93,94);
+    font-weight: 500;
+    margin-top: -10px;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+hr{
+    margin-top: 70px;
+}
+p{
+    font-size: 13px;
+}
